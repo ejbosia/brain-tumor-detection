@@ -13,6 +13,9 @@ pip3 install -r requirements.txt
 ```
 
 ### Download the Data
+
+**This is already included in the repository. Follow these steps if you need to download the data again for some reason.**
+
  1. Download the data from this link: https://www.kaggle.com/ahmedhamada0/brain-tumor-detection/download
  2. Extract the data to the *raw_data* folder
  3. The *raw_data* folder should contain a *yes* folder and a *no* folder
