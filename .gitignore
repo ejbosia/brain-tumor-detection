@@ -1,6 +1,7 @@
 # formatted images
-/data/formatted_data/
-
+/test_data
+/train_data
+/models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
