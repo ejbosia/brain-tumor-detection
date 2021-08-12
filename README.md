@@ -21,9 +21,9 @@ pip3 install -r requirements.txt
  3. The *raw_data* folder should contain a *yes* folder and a *no* folder
 
  ### Data Formatting
- The data needs to be formatted before running the experiments. The *preprocessing.ipynb* script can be used to do this automatically.
+ The data needs to be formatted before running the experiments. The *preprocessing.py* script can be used to do this automatically.
 
- At the end of data formatting, there should be two new directories: *train_data* and *test_data*. These folders should each have a *yes* folder and a *no* folder.
+ At the end of data formatting, there should be two new directories: *train_data* and *test_data*. These folders should each have a *yes* folder and a *no* folder. There should also be a *models* folder. This is where the models from the experiments are stored.
  
  ### Run the Experiments
  Individual experiments can be run through the *experiment_X.ipynb* notebooks. These experiments should populate a *models* folder with the trained model on completion.
