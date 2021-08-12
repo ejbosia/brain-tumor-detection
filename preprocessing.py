@@ -77,6 +77,12 @@ try:
 except FileExistsError:
     print("test_data/no exists")
 
+# create folder for saving models
+try:
+    os.mkdir('models')
+except FileExistsError:
+    print("models exists")
+
 # shuffle positives and negatives to randomly slice the test and training set
 random.seed(SEED)
 
